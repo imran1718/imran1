@@ -1,0 +1,44 @@
+
+#cl{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Georgia, serif;
+}
+.clgs{
+    border: 1px solid gray;
+    border-collapse: collapse;
+   
+}
+.clgs b a{
+   
+    text-align: center;
+    padding: 35px;
+}
+.b{
+    padding: 10px;
+    font-family: Georgia, serif;
+}
+.a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, serif;
+}
+.bac {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    align-items: right;
+   
+    display: inline;
+    float: right;
+  }
+  
+  a ::hover {
+    background: #fff;
+    color: #000;
+  } 

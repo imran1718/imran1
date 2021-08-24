@@ -1,0 +1,42 @@
+.bac {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    align-items: right;
+   
+    display: inline;
+    float: right;
+  }
+  
+  a ::hover {
+    background: #fff;
+    color: #000;
+  } 
+      
+      .tab{
+          width: 50%;
+          border: 1px solid gray;
+      }
+      .tl{
+          padding: 15px;
+      }
+ 
+ .ta{
+    
+     text-align: center;
+     padding: 35px;
+ }
+ .tab tr:hover {background-color: rgb(121, 110, 110);}
+ .app h2{
+    align-items: center;
+    padding-top: 5px;
+   text-align: center;
+    margin-top: 50px;
+    color: black;
+    font-family: Georgia, serif;
+   font-size: 36px;
+  }

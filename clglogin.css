@@ -1,0 +1,68 @@
+.bac {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    align-items: right;
+   
+    display: inline;
+    float: right;
+  }
+  
+  a ::hover {
+    background: #fff;
+    color: #000;
+  } 
+.centr {
+    width: 480px;
+    height: 688px;
+    margin: auto;
+    background-color:  #f2f2f2;
+    border-radius: 12px;
+    font-family: Georgia, serif;
+  }
+  
+  .centr h2{
+    align-items: center;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-top: 50px;
+    color: black;
+    font-family: Georgia, serif;
+    display: inline-flex;
+  }
+   .cent a{
+      color: black;
+      font-family: Georgia, serif;
+      text-decoration: none;
+  }
+ 
+  .cent a{
+      font-size: 18px;
+      font-weight: 500;
+  }
+  #a{
+      line-height: 400%;
+  }
+  #b{
+      line-height: 400%;
+  }
+  #c{
+      line-height: 400%;
+  }
+  #d{
+      line-height: 400%;
+  }
+  #e{
+    line-height: 400%;
+}
+#f{
+    line-height: 400%;
+}
+#g{
+    line-height: 400%;
+    color: red;
+}
