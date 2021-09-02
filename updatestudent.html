@@ -58,19 +58,26 @@
                     <h1>Update Profile</h1>
                     <form>
                         <label>First Name</label>
-                        <input type="text" placeholder="" />
+                        <input type="text" id="fname" placeholder="First Name" />
+                        <span id="firstname"></span>
                         <label>Last Name</label>
-                        <input type="text" placeholder="" />
+                        <input type="text" id="lname" placeholder="Last Name" />
+                        <span id="lastname"></span>
                         <label>User Name</label>
-                        <input type="text" placeholder="" />
+                        <input type="text" id="username" placeholder="User Name" />
+                        <span id="uname"></span>
                         <label>Password</label>
-                        <input type="password" placeholder="" />
+                        <input type="password" id="pword"  placeholder="Password" />
+                        <span id="pass"></span>
                         <label>Mobile Number</label>
-                        <input type="number" placeholder="" />
+                        <input type="number" id="phoneno" placeholder="Mobile Number" />
+                        <span id="pnum"></span>
                         <label>Email</label>
-                        <input type="email" placeholder="" />
+                        <input type="email" id="email" placeholder="Email" />
+                        <span id="mail"></span>
                         <label> Address</label>
-                    <textarea cols="30" rows="3"></textarea>><br><br>
+                    <textarea cols="30" rows="3" id="add"></textarea><br>
+                    <span id="addr"></span><br>
                     College
                     <select>
                         <option value="colleges">college</option>
@@ -78,9 +85,10 @@
                         <option value="KLNCE">KLNCE</option>
                     </select><br><br>
                     <br><br>
-                    <button type="button">Update</button>
+                    <button type="button" onclick="registration()">Update</button>
                 </div>
             </form>
         </div>
+        <script src="updatestudent.js"></script>
     </body>
     </html>

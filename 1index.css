@@ -46,7 +46,7 @@ a:hover {
 }
 .img{
   background: url(Website.jpg)no-repeat;
-  height: 123vh;
+  height: 137vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -147,7 +147,7 @@ a:hover {
  animation-delay: 3s;
 }
 .bubbles img:nth-child(6) {
-  -o-animation-delay: 6s;
+  animation-delay: 6s;
 }
 .bubbles img:nth-child(7) {
   animation-delay: 7s;
@@ -251,3 +251,27 @@ a:hover {
     transform: translate(40px, -40px);
     opacity: 0.4;
   }
+ span{
+   color: red;
+ }
+ /* Add a green text color and a checkmark when the requirements are right */
+ .valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}

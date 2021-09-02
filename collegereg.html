@@ -53,25 +53,33 @@
                 <div align="center" class="reg">
                   
                <a href="register.html">Back</a>
+               
                 <div class="signup">
                 <h1>College Registration</h1>
-                <form>
+                <form class="myform">
                     <label>College Name</label>
-                    <input type="text" placeholder="" />
+                    <input type="text" id="clgname" placeholder="college Name" /><br>
+                    <span id="clname"></span>
                     <label>User name</label>
-                    <input type="text" placeholder="" />
+                    <input type="text" id="username" placeholder="Username" />
+                    <span id="uname"></span>
                     <label>Password</label>
-                    <input type="password" placeholder="" />
+                    <input type="password" id="pword" placeholder="Password" />
+                    <span id="pass"></span>
                     <label>College Address</label>
-                    <textarea cols="42" rows="3"></textarea>
+                    <textarea cols="42" rows="3" id="Collegeadd" placeholder="College Address"></textarea>
+                    <span id="addr"></span>
                     <label>College phone Number</label>
-                    <input type="number" placeholder="" />
-                    <input type="button" value="Submit">
-                    <input type="button" value="Reset">
+                    <input type="number" id="phoneno" placeholder="College phone Number" />
+                    <span id="pnum"></span>
+                    <input type="button" value="Submit" onclick="registration()">
+                    <input type="button" value="Reset" onclick="location.reload()">
                   </form>
+                  
                 </div>    
                 </div>
-            </form>
-       
+                
+              
+       <script src="registration.js"></script>
     </body>
     </html>

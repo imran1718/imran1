@@ -57,16 +57,21 @@
      <h1>Update College</h1>
      <form>
          <label>College Name</label>
-         <input type="text" placeholder="" />
+         <input type="text" id="clgname"" placeholder="College Name" />
+         <span id="clname"></span>
          <label>User name</label>
-         <input type="text" placeholder="" />
+         <input type="text" id="username" placeholder="User name" />
+         <span id="uname"></span>
          <label>Password</label>
-         <input type="password" placeholder="" />
+         <input type="password" id="pword" placeholder="Password" />
+         <span id="pass"></span>
          <label>Address</label>
-         <textarea cols="42" rows="3"></textarea>
+         <textarea cols="42" rows="3" id="Collegeadd" placeholder="Address"></textarea>
+         <span id="addr"></span>
          <label>College phone Number</label>
-         <input type="number" placeholder="" />
-         <input type="button" value="Update">
+         <input type="number" id="phoneno" placeholder="College phone Number" />
+         <span id="pnum"></span>
+         <input type="button" value="Update" onclick="registration()">
          
        </form>
      </div>    
@@ -75,5 +80,6 @@
                 </div>
             </form>
         </div>
+        <script src="updateclg.js"></script>
     </body>
     </html>

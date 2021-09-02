@@ -50,7 +50,7 @@
     border-radius: 6px;
     outline: none;
   }
- .signup button{
+ #button{
      background-color: #49c1a2;
      text-decoration:none;
      color:white;
