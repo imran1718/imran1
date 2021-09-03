@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     
-    <title>Faculty Management</title>
+    <title>Update Faculty</title>
     <link rel="stylesheet" href="1index.css">
-    <link rel="stylesheet" href="facmanage.css">
+    <link rel="stylesheet" href="addfac.css">
     <link
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
     rel="stylesheet"
@@ -50,22 +51,29 @@
           </td>
       </tr>
   </table>
-  <li class="bac"><a  href="clglogin.html">Back</a></li>
-                <div align="center" class="centri">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-        <h2>Faculty Management</h2>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-        <br><br><br><br>
-        <div align="center" class="fac">
-          <a id="a" href="addfac.html">Add Faculty</a><br><br>
-          <a id="b" href="updatefac.html">Update Faculty</a>
-
-          
-        </div>
-      </body>
-      </html>
-          
-        
-                        
-
-                        
-                                        
-                   
+  <div align="center" class="reg">
+                  
+    <a href="facmanage.html">Back</a>
+     <div class="signup">
+     <h1>College Registration</h1>
+     <form>
+         <label>Faculty Name</label>
+         <input type="text" id="name" placeholder="Faculty Name" />
+         <span id="fac"></span>
+         <label>Qualification</label>
+         <input type="text" id="quali" placeholder="Qualification" />
+         <span id="qual"></span>         
+         <label>Experience</label>
+         <input type="text" id="expr" placeholder="Experience" />
+         <span id="exp"></span>          
+         <label>Skill Set</label>
+         <input type="text" id="set" placeholder="Skill Set" /><br>
+         <span id="Skill"></span>
+         <input type="button" onclick="addfac()" value="Submit">
+         <input type="button" onclick="location.reload()" value="Reset">
+       </form>
+     </div>    
+     </div>
+     <script src="updatefac.js"></script>
+        </body>
+        </html>
